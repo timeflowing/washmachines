@@ -263,7 +263,7 @@ $("#send-mail").click(function () {
 
 
     //Function for show or hide portfolio desctiption.
-    $.fn.showHide = function (options) {
+   /* $.fn.showHide = function (options) {
         var defaults = {
             speed: 1000,
             easing: '',
@@ -283,7 +283,7 @@ $("#send-mail").click(function () {
             });
             return false;
         });
-    };
+    };*/
 
     //Initial Show/Hide portfolio element.
     $('div.toggleDiv').hide();
